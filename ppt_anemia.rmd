@@ -1,0 +1,50 @@
+---
+title: "Anemia"
+subtitle: "Revisión de literatura"
+author: "LL"
+date: "2024/7/3"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+      highlightLines: true
+      theme: "custom_cdc_ppt.css"
+---
+<!-- Inicio del Slide 1 -->
+<div class="remark-slide-content">
+<style>
+/* Estilos para los títulos */
+.slide1 h1 {
+  color: #FFFFFF; /* Blanco */
+  background-color: #FF5733; /* Fondo naranja */
+  padding: 10px;
+  text-align: center;
+}
+.slide2 h2 {
+  color: #333333; /* Gris oscuro */
+  background-color: #EEEEEE; /* Fondo gris claro */
+  padding: 10px;
+  text-align: left;
+}
+</style>
+<div class="slide1">
+  <!-- h1 para título slide 1 -->
+  <h1>Hallazgos principales</h1>
+  <p>- Sistematización de problemas obtenidos de la literatura científica</p>
+</div>
+<!-- Fin del Slide 1 -->
+---
+<!-- Inicio del Slide 2 -->
+<div class="slide2">
+  <!-- Uh1 para título slide 2, pero con estilos diferentes -->
+  <h2>Comparación con hallazgos gubernamentales</h2>
+</div>
+<!-- Fin del Slide 2 -->
+---
+```{r setup, include=FALSE}
+# Esto es un comentario en R
+#Sys.setenv(RSTUDIO_PANDOC = "C:/Users/luisl/Downloads")
+#rmarkdown::render("c:/Users/luisl/Downloads/ppt_anemia.rmd")
+```
